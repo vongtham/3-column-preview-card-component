@@ -3,7 +3,7 @@
     --headding-font : 'Big Shoulders Display', cursive;
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
+    --very-darkcyan: hsl(179, 100%, 13%);
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
@@ -85,8 +85,8 @@ a {
     background-color: var(--dark-cyan);
 }
 
-.bg-very-dark-cyan {
-    background: var(--very-dark-cyan);
+.bg-very-darkcyan {
+    background: var(--very-darkcyan);
 }
 
 .text-orange {
@@ -97,17 +97,18 @@ a {
     color: var(--dark-cyan);
 }
 
-.text-very-dark-cyan {
-    color: var(--very-dark-cyan);
+.text-very-darkcyan {
+    color: var(--very-darkcyan);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 630px) {
     .cards {
         flex-direction: row;
         max-width: 850px;
+        margin: 0 1rem;
     }
 
     p {
-        min-height: 180px; 
+        min-height: 173px; 
     }
 }
